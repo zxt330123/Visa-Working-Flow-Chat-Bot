@@ -1,0 +1,47 @@
+TOPIC: ~adult keep repeat stay  (adult "visa")
+#!x  This topic is a sample of a simple topic, with good indentation style.
+#!x  It is well commented with annotations for :abstract and :verify.
+
+
+u: (stay home) stay home is cool.
+
+u: (tell me a story) I always watch movie when I stay home.
+
+u: (i am austin) you are very\n\n good&.
+
+
+s: ( I like spinach ) Are you a fan of the Popeye cartoons?
+    a: ( ~yes ) I used to watch him as a child. Did you lust after Olive Oyl?
+        b: ( ~no ) Me neither. She was too skinny.
+        b: ( ~yes ) You probably like skinny models.
+    a: ( ~no ) What cartoons do you watch?
+        b: ( ~no ) You lead a deprived life. What's your job?
+        b: ( "Mickey Mouse" ) The Disney icon. Your taste is good.
+
+############################################################################################
+u: (visa) 你好
+
+u: ([cool]) I know right.
+
+u: ([你好 你还能做什么]) 你好！你可以问我优惠活动,发现ATM机,向你提问或者得到一个免费电话来申报在旅途中的卡片丢失.试试下面中的一个吧: \n\nVisa \nVisa卡，优惠&安全常见问题 "常见问题". \n\n发现优惠活动\n发现你能享受的优惠 "显示优惠"\n\n卡片丢失或被盗?\n得到免费的Visa报告电话 "卡片丢失"\n\n发现附近的ATM\n找到你身边的ATM机 "附近ATM"
+    
+s:(附近ATM) 请共享你的位置
+        a:(menara ambank) Menara Ambank / Public Bank ATM / Ambank Jalan Yap Kwan Seng
+
+s:(常见问题) 这里有一些你可能问的常见问题: \n\n什么是payWave?\n\n申请Visa卡\n\n什么是CVV2?\n\n更多常见问题
+        a:(更多常见问题) 这里有一些你可能问的常见问题: \n\n什么是Visa卡检出?\n\npayWave安全吗?
+
+s:(显示优惠) 无论你在哪里，通过Visa卡你都可以很容易的享受到独一无二的优惠折扣，请选择你的Visa类型
+        a:(visa platinum) 请共享你的位置
+            b:(美国) 享受Visa卡带来的乐趣! 你身边的优惠:\n\n4th Night Free(Conrad Miami)\n3rd Night FREE(Park Hyatt New York)\n通过以下分类来选择优惠\nTravel Offers\nEntertainment Offers\nShopping Offers
+
+s:(卡片丢失)别担心,告诉我们你的地址,我们会告知你一个免费电话:\n\n我在马来西亚\n\n我在国外
+        a:(我在国外) 请共享你的位置
+            b:(美国) Visa toll free number for assistance in United States is 18667659644 in United States (Hawaii) is 18667659644
+
+
+u: (什么是Visa卡检出) Visa Checkout makes online shopping more enjoyable by making it easy to complete your purchase. Simply enter your username and password and speed through your online shopping experiences.\nNo need to re-enter your card number or address. And you can store and use any major credit or debit card.
+
+s: (什么是payWave) Visa payWave is a new payment feature that lets your make purchase faster.\nSimply wave your Visa card in front of a secure reader at the sales counter, and you’re on your way!
+    a: (安全吗) Visa payWave cards are as secure as any other Visa chip card and carry the same multiple layers of security. They only work when the card is within 4cm of the card reader and the Visa payWave terminal cam only process one transaction at a time.\nBecause your Visa payWave car doesn’t leave your hand during the transaction, you remain in control of your card at all times.
+
